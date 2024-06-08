@@ -1,0 +1,9 @@
+To generate a random function, we imported the string and random modules. Next, we created a function called password_generator, passing in parameters like length, lowercount, uppercount, digits, and characters.
+
+we asked the user if he needed lowercase, uppercase, digits, or special characters. If the user selected "1" for any of the options, we deemed that the user needed the option.
+
+If the user enters anything other than "1," we disregard that choice and replace it with an empty string as we believe all inputs are in string format. Then, we go to the other option.
+
+we establish a variable called 'password', containing all of our options. Secondly, we use the random module to produce a unique password for each situation.
+
+We call the function and store it into a variable and print the password
